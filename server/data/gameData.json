@@ -1,0 +1,35 @@
+{
+  "story_progression": {
+    "1": {
+      "text": "You enter a dark cave. What do you do?",
+      "options": [
+        "Light a torch",
+        "Proceed in the dark",
+        "Call out for help"
+      ],
+      "correct_option": 1
+    },
+    "2": {
+      "text": "You see two tunnels ahead. Which do you choose?",
+      "options": [
+        "Take the left tunnel",
+        "Take the right tunnel"
+      ],
+      "correct_option": 2
+    },
+    "3": {
+      "text": "The right tunnel took you to a deep state of mind. You feel lost. ",
+      "options": [
+        "Take drugs",
+        "Meditate"
+      ],
+      "correct_option": 2
+    }
+  },
+  "game_over": {
+    "text": "Game Over! You have failed your quest."
+  },
+  "win_screen": {
+    "text": "Congratulations! You have completed your adventure!"
+  }
+}

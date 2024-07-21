@@ -1,0 +1,22 @@
+{
+    "name": "linear-adventure-editor",
+    "version": "1.0.0",
+    "description": "A game editor and player for Linear Adventure",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "server": "nodemon server/server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "concurrently": "^6.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}

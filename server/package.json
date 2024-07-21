@@ -1,0 +1,13 @@
+{
+    "name": "linear-adventure-editor-server",
+    "version": "1.0.0",
+    "description": "Server for Linear Adventure Editor",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "cors": "^2.8.5"
+    }
+}
